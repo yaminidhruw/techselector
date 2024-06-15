@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Initial;
+    background-image: url("https://img.freepik.com/free-photo/top-view-workspace-with-copy-space-laptop_23-2148430819.jpg?w=1380&t=st=1718458043~exp=1718458643~hmac=c847c7c6f0412cdc17ecd6c45b9dc25f5b053b125e5a8e87867f833760888c67");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    font-family:initial;
+    text-align:center;
+    top: 60px;
+}
+
+.heading {
+    font-size: 60px;
+    color:silver;    
+}
+
+.info {
+    font-size: 40px;
+    color:silver;
+}
+
+.paragraph {
+    font-size: 30px;
+    max-width: 1000px;
+    color:darkgray;
+}
+
+.btn {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    cursor:pointer;
+    background-color:silver;
+}
