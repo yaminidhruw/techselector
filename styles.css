@@ -1,13 +1,12 @@
 body {
-    margin: 0;
+    
     font-family: Initial;
     background-image: url("https://www.bhmpics.com/downloads/smart-background-Wallpapers/63.abstract-technology-with-blue-hexagonal-line-background-smart-design-promotion-bid-data_518299-1336.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    text-align: center;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,6 @@ body {
 .container {
     font-family:initial;
     text-align:center;
-    top: 60px;
 }
 
 .heading {
@@ -36,6 +34,18 @@ body {
     color:darkgray;
 }
 
+
+.highlight {
+    font-size: 30px;
+    max-width: 1000px;
+    color:silver; 
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
 .btn {
     font-size: 20px;
     width: 150px;
@@ -43,6 +53,7 @@ body {
     border-radius: 10px;
     display: block;
     margin: auto;
+    Padding:10px;
     cursor:pointer;
-    background-color:silver;
+    background-color:transparent;
 }
